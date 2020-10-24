@@ -5,6 +5,6 @@ interface Props {
 }
 
 export const ExampleComponent = ({ text }: Props) => {
-  return <div className={styles.test}>Example Component123: {text}</div>
+  return <div className={styles.test}>Example Component: {text}</div>
 }
 export { default as FunkyBar } from './components/funkyBar'
