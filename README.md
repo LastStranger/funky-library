@@ -15,12 +15,12 @@ npm install --save funky-library
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from 'funky-library'
+import {FunkyBar} from 'funky-library'
 import 'funky-library/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <FunkyBar />
   }
 }
 ```
