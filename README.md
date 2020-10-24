@@ -24,7 +24,7 @@ class Example extends Component {
   }
 }
 ```
-
+hope you guys like it😄
 ## License
 
 MIT © [https://github.com/LastStranger](https://github.com/https://github.com/LastStranger)
