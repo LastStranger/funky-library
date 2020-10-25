@@ -24,6 +24,10 @@ class Example extends Component {
   }
 }
 ```
+## list
+```
+<FunkyBar /> // fancy scrollbar
+```
 hope you guys like it
 ## License
 
