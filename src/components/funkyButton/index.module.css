@@ -1,0 +1,62 @@
+/*.funkyHover{*/
+/*}*/
+/*svg {*/
+/*  height: 200px;*/
+/*  width: 200px;*/
+/*}*/
+/*rect {*/
+/*  fill: transparent;*/
+/*  stroke: #0bc3b3;*/
+/*  stroke-width: 4;*/
+/*}*/
+/*.dashed{*/
+/*  stroke-dasharray: 20, 160, 20, 0, 20, 160, 20, 0, 20, 160, 20, 0, 20, 160;*/
+/*}*/
+.funkyHover {
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+  padding: 8px 10px;
+  animation: animate 8s linear infinite;
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
+  /*position: relative;*/
+  /*display: inline-block;*/
+  /*z-index: 1;*/
+}
+.funkyHover:before {
+  /*content: '';*/
+  /*position: absolute;*/
+  /*top: -5px;*/
+  /*left: -5px;*/
+  /*right: -5px;*/
+  /*bottom: -5px;*/
+  /*z-index: -1;*/
+  /*background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);*/
+  /*background-size: 400%;*/
+  /*border-radius: 40px;*/
+  /*filter: blur(20px);*/
+  /*opacity: 0;*/
+  /*transition: 0.5s;*/
+  /*border-radius: 50%;*/
+}
+.funkyHover:hover:before{
+  /*filter: blur(20px);*/
+  /*opacity: 1;*/
+  /*animation: animate1 8s linear infinite;*/
+}
+.funkyHover:hover{
+  /*animation: animate 8s linear infinite;*/
+  cursor:  pointer;
+}
+@keyframes animate{
+  0%{
+    background-position: 0;
+    /*transform: rotate(0deg)*/
+  }
+  100%{
+    background-position: 400%;
+    /*transform: rotate(360deg)*/
+  }
+}
+
