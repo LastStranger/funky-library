@@ -27,6 +27,7 @@ class Example extends Component {
 ## list
 ```
 <FunkyBar /> // fancy scrollbar
+<FunkyButton /> updating....
 ```
 hope you guys like it
 ## License
