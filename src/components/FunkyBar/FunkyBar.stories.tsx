@@ -20,9 +20,9 @@ export const Primary: Story = {
     render: args => (
         <div
             style={{
-                height: "200vh",
+                height: "120vh",
                 position: "relative",
-                background: "linear-gradient(to bottom, #ff0000, #00ff00)",
+                background: "#000",
             }}
         >
             scrolling down!!!
